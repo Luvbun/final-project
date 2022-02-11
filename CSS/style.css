@@ -5,7 +5,8 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 .hero-image {
-    background-image: linear-gradient(rgba 0, 0, 0, 0.7) (rgba 0, 0, 0, 0.7) url(https://images.unsplash.com/photo-1492963357580-ef5af79966cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://images.unsplash.com/photo-1492963357580-ef5af79966cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=812&q=80);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,7 +21,7 @@ body {
     text-align: center;
 }
 
-.hero-image .hero-text h1 {
+ .hero-text h1 { 
     font-size: 50px;
     font-weight: 500;
 }
@@ -29,9 +30,10 @@ body {
     font-size: 30px;
     font-weight: 500;
     line-height: 10px;
-}
+    
+} 
 
-.hero-image .hero-btn {
+ /* .hero-image .hero-btn {
     text-decoration: none;
     color: #fff;
     background: #000;
@@ -43,8 +45,8 @@ body {
 
 .hero-image .hero-btn :hover {
     background: #fff;
-    color:#000
-}
+    color:#000 
+ }*/
 
 h1,  h2, h3, h4, h5, h6 {
     font-family: 'Roboto Condensed', sans-serif;
@@ -82,8 +84,7 @@ li {
 }
 
 .logo {
-    margin-top: 30px;
     margin-top: 10px;
-    height: 75px;
-    width: 75px;
+    height: 150px;
+    width: 150px;
 }
