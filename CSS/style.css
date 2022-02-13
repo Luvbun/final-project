@@ -31,8 +31,7 @@ body {
 	color: darkkhaki;
 }
 
-p,
-a {
+p, a {
 	font-family: "Ubuntu", sans-serif;
 }
 
@@ -82,6 +81,7 @@ ul {
 	background-color: rgb(11, 62, 109);
 	width: 33vw;
 	padding: 20px 50px;
+    color: #ffbdde;
 }
 
 .intro-text {
@@ -97,7 +97,7 @@ ul {
 iframe {
 	position: sticky;
 	top: 22%;
-	aspect-ratio: 16/9;
+	aspect-ratio: 16/16;
 	width: 30vw;
 }
 
@@ -110,4 +110,36 @@ iframe {
 	align-items: center;
 	font-weight: bolder;
 	font-size: larger;
+    color: #ffbdde;
+}
+
+.socials-container a :hover {
+    background-color: deeppink;
+    border-radius: 10px;
+}
+
+.three-videos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color:#ece17e
+}
+
+.vidsplanation {
+    height: auto;
+    width: 100%;
+    background-color: black;
+    color: #0b3e6d;
+    padding: 30px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.video-header {
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: 1000;
+    color:#0b3e6d;
 }
