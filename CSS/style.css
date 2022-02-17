@@ -16,6 +16,18 @@ body {
 	flex-direction: column;
 }
 
+.hero-image-contact {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url('/img/hero-image-contact.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
 .hero-text {
 	color: rgb(94, 153, 16);
 	text-align: center;
@@ -143,3 +155,50 @@ iframe {
     font-weight: 1000;
     color:#0b3e6d;
 }
+
+.google-map-div {
+	background-color: #0c2b28;
+	width: 50%;
+	height: 400px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+
+.google-map {
+	width: 80%;
+	height: 80%;
+}
+
+.google-map-title {
+	position: relative;
+	color: white;
+}
+
+.picture-row-1 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 700px;
+	background-color: #0c2b28;
+}
+
+.pictures-row-portrait {
+	height: 600px;
+	width: 400px;
+	border-radius: 10px;
+}
+
+.pictures-row-landscape {
+	width: 875px;
+	height: 650px;
+	border-radius: 10px;
+}
+
+.contact-map-div {
+	display: flex;
+	height: 500px;
+	background-color: #0c2b28;
+}
+
