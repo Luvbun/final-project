@@ -202,3 +202,23 @@ iframe {
 	background-color: #0c2b28;
 }
 
+.audiobar {
+	height: 30px;
+	width: 100%;
+	background-color:rgb(11, 62, 109);
+}
+
+.trap {
+	height: 80%;
+	width: 100vw;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+}
+
+.traptext {
+	color: white;
+	display: flex;
+	justify-content: center
+	font
+}
