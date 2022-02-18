@@ -59,6 +59,7 @@ li {
 .nav-links {
 	padding: 10px 25px;
 	background-color: rgb(111, 133, 158);
+	border-radius: 10px;
 }
 
 .logo {
@@ -208,17 +209,17 @@ iframe {
 	background-color:rgb(11, 62, 109);
 }
 
-.trap {
-	height: 80%;
+.dance {
+	height: 100%;
 	width: 100vw;
 	background-color: black;
 	display: flex;
 	justify-content: center;
 }
 
-.traptext {
+.dance-text {
 	color: white;
 	display: flex;
-	justify-content: center
-	font
+	justify-content: center;
+	font-size: xx-large;
 }
